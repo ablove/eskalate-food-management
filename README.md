@@ -2,7 +2,7 @@
 
 A modern food management web application built with **Next.js 13**, **React 18**, and **Tailwind CSS** for the Eskalate.io technical assessment.
 
-![Dashboard Overview](./public/Dashboard1.png)
+![Dashboard Overview](screenshots/Dashboard1.png)
 
 ## 🚀 Live Demo
 
@@ -12,23 +12,23 @@ A modern food management web application built with **Next.js 13**, **React 18**
 ## 📸 Application Screenshots
 
 ### 🏠 Main Dashboard
-![Main Dashboard](./public/dashboard1.png)
+![Main Dashboard](screenshots/Dashboard1.png)
 *Clean, modern interface with featured meals and search functionality*
 
 ### 📱 Responsive Layout
-![Responsive Dashboard](./public/dashboard2.png)
+![Responsive Dashboard](screenshots/Dashboard2.png)
 *Fully responsive design that works seamlessly across all devices*
 
 ### ➕ Add New Meal
-![Add Meal Modal](./public/add_meal.png)
+![Add Meal Modal](screenshots/add_meal.png)
 *Intuitive form with validation for adding new food items*
 
 ### ✏️ Edit Meal Details
-![Edit Meal Modal](./public/edit_meal.png)
+![Edit Meal Modal](screenshots/edit_meal.png)
 *Easy-to-use editing interface with pre-populated data*
 
 ### 🗑️ Delete Confirmation
-![Delete Meal Modal](./public/delete_meal.png)
+![Delete Meal Modal](screenshots/delete_meal.png)
 *Safe deletion with confirmation dialog to prevent accidental removals*
 
 ## ✨ Features
@@ -99,12 +99,13 @@ foodwagen-app/
 │   └── 🛠️ utils.ts             # Utility functions
 ├── 📁 types/
 │   └── 🍕 food.ts              # TypeScript type definitions
-├── 📁 public/                  # Static assets
+├── 📁 screenshots/             # Application screenshots
 │   ├── 📸 Dashboard1.png
 │   ├── 📸 Dashboard2.png
 │   ├── 📸 add_meal.png
 │   ├── 📸 edit_meal.png
 │   └── 📸 delete_meal.png
+├── 📁 public/                  # Static assets for the app
 ├── ⚙️ tailwind.config.ts       # Tailwind CSS configuration
 ├── ⚙️ next.config.js           # Next.js configuration
 └── 📦 package.json             # Dependencies and scripts
@@ -128,15 +129,11 @@ foodwagen-app/
 2. **📦 Install dependencies**
    \`\`\`bash
    npm install
-   # or
-   yarn install
    \`\`\`
 
 3. **🚀 Start development server**
    \`\`\`bash
    npm run dev
-   # or
-   yarn dev
    \`\`\`
 
 4. **🌐 Open your browser**
@@ -150,16 +147,12 @@ npm run build
 
 # Start production server
 npm start
-
-# Or with yarn
-yarn build
-yarn start
 \`\`\`
 
 ## 🎯 Feature Demonstrations
 
 ### 1. 🍽️ **Food Management System**
-![Dashboard Features](./public/Dashboard1.png)
+![Dashboard Features](screenshots/Dashboard1.png)
 - **Add** new food items with complete details (name, rating, price, restaurant info)
 - **Edit** existing food information with pre-populated forms
 - **Delete** food items with safe confirmation dialogs
@@ -172,14 +165,14 @@ yarn start
 - **Clear search** functionality to reset filters
 
 ### 3. 📱 **Responsive Design Excellence**
-![Responsive Layout](./public/Dashboard2.png)
+![Responsive Layout](screenshots/Dashboard2.png)
 - **Desktop**: Multi-column grid layout (4 columns on large screens)
 - **Tablet**: Optimized 2-3 column layout for medium screens
 - **Mobile**: Single-column stack layout with touch-friendly interactions
 - **Adaptive UI**: Components resize and reflow naturally
 
 ### 4. ✅ **Smart Form Validation**
-![Add Meal Form](./public/add_meal.png)
+![Add Meal Form](screenshots/add_meal.png)
 - **Required field validation** with clear error messages
 - **URL format validation** for food images and restaurant logos
 - **Rating range validation** (0-5 stars)
@@ -238,11 +231,6 @@ xl: 1280px  /* Extra large devices (desktops) */
 2xl: 1536px /* 2X Extra large devices (large desktops) */
 \`\`\`
 
-### 📐 Layout Adaptations:
-- **Mobile (< 640px)**: Single column, stacked layout
-- **Tablet (640px - 1024px)**: 2-3 column grid
-- **Desktop (> 1024px)**: 4+ column grid with sidebar options
-
 ## 🧪 Cross-Browser Testing
 
 The application has been thoroughly tested across:
@@ -267,12 +255,6 @@ The application has been thoroughly tested across:
    - Publish directory: `.next`
 3. **Deploy**: Automatic deployment on every push
 
-### ☁️ Other Platforms
-- **Railway**: Simple deployment with GitHub integration
-- **Heroku**: Traditional cloud platform (requires buildpack)
-- **AWS Amplify**: Amazon's hosting solution
-- **DigitalOcean App Platform**: Developer-friendly hosting
-
 ## 📈 Performance Optimizations
 
 ### ⚡ Next.js 13 Features
@@ -286,27 +268,6 @@ The application has been thoroughly tested across:
 - **Tree Shaking**: Unused code elimination
 - **CSS Purging**: Tailwind CSS removes unused styles
 - **TypeScript**: Better development experience and error catching
-
-### 📊 Performance Metrics
-- **First Contentful Paint**: < 1.5s
-- **Largest Contentful Paint**: < 2.5s
-- **Cumulative Layout Shift**: < 0.1
-- **Time to Interactive**: < 3.5s
-
-## 🤝 Development Guidelines
-
-### 📋 Code Standards
-- **TypeScript**: Strict type checking enabled
-- **ESLint**: Consistent code formatting and best practices
-- **Component Structure**: Modular, reusable components
-- **Git Workflow**: Descriptive commit messages and branching
-
-### 🔄 Development Workflow
-1. **Feature Branch**: Create branch for new features
-2. **Development**: Code with TypeScript and Tailwind CSS
-3. **Testing**: Test across different devices and browsers
-4. **Commit**: Use conventional commit messages
-5. **Deploy**: Automatic deployment via Vercel/Netlify
 
 ## 👨‍💻 Developer Information
 
@@ -355,4 +316,3 @@ This project was developed as part of the **Eskalate.io Technical Assessment** a
 *Showcasing modern web development skills for the Eskalate.io Technical Assessment*
 
 </div>
-\`\`\`
