@@ -6,7 +6,7 @@ A modern food management web application built with **Next.js 13**, **React 18**
 
 ## 🚀 Live Demo
 
-- **🌐 Live Application**: [Your Deployed Link Here]
+- **🌐 Live Application**:  https://vercel.com/abebes-projects-6e007fbe/eskalate-food-management
 - **📱 Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
 
 ## 📸 Application Screenshots
