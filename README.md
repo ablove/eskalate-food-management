@@ -2,7 +2,7 @@
 
 A modern food management web application built with **Next.js 13**, **React 18**, and **Tailwind CSS** for the Eskalate.io technical assessment.
 
-![Dashboard Overview](screenshots/Dashboard1.png)
+![Dashboard Overview](screenshots/dashboard1.png)
 
 ## 🚀 Live Demo
 
@@ -12,11 +12,11 @@ A modern food management web application built with **Next.js 13**, **React 18**
 ## 📸 Application Screenshots
 
 ### 🏠 Main Dashboard
-![Main Dashboard](screenshots/Dashboard1.png)
+![Main Dashboard](screenshots/dashboard1.png)
 *Clean, modern interface with featured meals and search functionality*
 
 ### 📱 Responsive Layout
-![Responsive Dashboard](screenshots/Dashboard2.png)
+![Responsive Dashboard](screenshots/dashboard2.png)
 *Fully responsive design that works seamlessly across all devices*
 
 ### ➕ Add New Meal
